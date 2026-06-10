@@ -1,21 +1,12 @@
 ---
 name: brand-discovery
 description: >-
-  Adaptive, multi-session brand identity interview for any organization.
-  Elicits purpose, positioning, audience, personality, voice, narrative,
-  and founder-brand tension using laddering, 5 Whys, and projective
-  techniques. Produces a master brandbook usable to brief designers,
-  writers, and external collaborators.
+  Use when a brand needs to discover or articulate its identity through
+  structured multi-session interviews. Covers purpose, positioning, audience,
+  personality, voice, narrative, and founder-brand tension across 8 modules
+  using laddering, 5 Whys, and projective techniques. Produces a resumable
+  session with disk-persisted state and a master brandbook (90_SYNTHESIS.md).
 origin: community
-author: hretheum
-license: MIT
-tags:
-  - brand
-  - brand-identity
-  - interview
-  - positioning
-  - discovery
-  - voice-and-tone
 ---
 
 # Brand Discovery
@@ -28,6 +19,14 @@ collaborators.
 The interview runs across multiple sessions. Capture answers to disk as you
 go so that no elicited knowledge is lost when a conversation ends, and so a
 later session can resume from where the last one stopped.
+
+## When to Activate
+
+- A brand is being created, repositioned, or needs a written identity reference to brief collaborators.
+- Multiple sessions are expected — the conversation will span days or weeks.
+- Multiple founders or stakeholders need individual interviews before a reconciliation pass.
+- The user wants a structured, repeatable method rather than an ad-hoc chat.
+- Existing brand documentation is scattered, implicit, or founder-dependent and needs to be made explicit.
 
 ## Session start protocol
 
@@ -120,3 +119,16 @@ When more than one founder participates, write each founder's answers to
 founders complete a module, run a reconciliation pass: summarise
 convergences and divergences in the module file, flag "productive tensions"
 for the group alignment workshop.
+
+## Anti-Patterns
+
+- **Starting without reading state first.** Every session must open by checking for existing module files and `state.json`. Skipping this loses all continuity from prior sessions.
+- **Asking multiple questions at once.** One question at a time is not optional — lists produce checklist answers, not real insight.
+- **Moving to Synthesis before saturation.** If the last two probes produced no new information, the module is done. If they did — it isn't.
+- **Skipping multi-founder reconciliation.** When multiple stakeholders are involved, individual interviews must complete before reconciliation. Discussing the brand collectively first introduces anchoring bias.
+- **Treating this as a one-shot session.** This skill is designed for multiple sessions. Rushing to `90_SYNTHESIS.md` in one conversation produces shallow output.
+
+## Related Skills
+
+- `competitive-platform-analysis` — after brand-discovery establishes the positioning brief, use this to scope and categorise the competitor set.
+- `brand-voice` (ECC) — if the brand-discovery voice-and-tone module needs a separate, source-derived writing-style profile.

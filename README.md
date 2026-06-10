@@ -66,7 +66,7 @@ Eight modules, completed in order (jumps are allowed and recorded in state):
 | `70_founder-tension.md` | Founder vs Organisation Brand | Enns *Win Without Pitching* |
 | `90_SYNTHESIS.md` | Master Brandbook | Kapferer prism, Aaker brand system |
 
-Each module file has two sections: `## Raw` (verbatim quotes and examples — exact language, no paraphrase) and `## Synthesis` (interpretation, two-to-three candidate formulations, open questions, contradictions between participants). Templates for all eight ship in `brand-discovery/templates/`.
+Each module file has two sections: `## Raw` (verbatim quotes and examples — exact language, no paraphrase) and `## Synthesis` (interpretation, two-to-three candidate formulations, open questions, contradictions between participants). Templates for all eight ship in `brand-discovery/references/`.
 
 ### Checkpoint management (self-managed)
 
@@ -152,7 +152,7 @@ Throughout: verify every competitor claim across at least two sources, and tag a
 
 ### Quickstart
 
-1. **Install the skills.** Drop the four `*.skill.md` files (and the `brand-discovery/templates/` folder) where Claude Code looks for skills — your project's `.claude/skills/` directory, or your personal skills folder.
+1. **Install the skills.** Drop the four `*.skill.md` files (and the `brand-discovery/references/` folder) where Claude Code looks for skills — your project's `.claude/skills/` directory, or your personal skills folder.
 2. **Create the state directory.** Make a `/brand-identity/` folder wherever you keep project notes (a repo, an Obsidian vault — any directory the agent can read and write).
 3. **Run it.** Invoke `/brand-discovery`. On a fresh start it confirms the brand name, participants, and where to save files, then begins at module 10. On a resume it reads `STATE.md` first and picks up where you left off.
 
@@ -220,7 +220,7 @@ Osiem modułów, realizowanych po kolei (skoki są dozwolone i zapisywane w stan
 | `70_founder-tension.md` | Marka założyciela vs marka firmy | Enns *Win Without Pitching* |
 | `90_SYNTHESIS.md` | Master-brandbook | Pryzmat Kapferera, system marki Aakera |
 
-Każdy plik modułu ma dwie sekcje: `## Raw` (cytaty i przykłady dosłownie — dokładny język, bez parafrazy) oraz `## Synthesis` (interpretacja, dwa-trzy kandydujące sformułowania, otwarte pytania, sprzeczności między uczestnikami). Szablony wszystkich ośmiu są w `brand-discovery/templates/`.
+Każdy plik modułu ma dwie sekcje: `## Raw` (cytaty i przykłady dosłownie — dokładny język, bez parafrazy) oraz `## Synthesis` (interpretacja, dwa-trzy kandydujące sformułowania, otwarte pytania, sprzeczności między uczestnikami). Szablony wszystkich ośmiu są w `brand-discovery/references/`.
 
 ### Zarządzanie checkpointami (self-managed)
 
@@ -306,7 +306,7 @@ W całym przebiegu: weryfikuj każde twierdzenie o konkurencie w co najmniej dw�
 
 ### Quickstart
 
-1. **Zainstaluj skille.** Wrzuć cztery pliki `*.skill.md` (i folder `brand-discovery/templates/`) tam, gdzie Claude Code szuka skilli — do katalogu `.claude/skills/` Twojego projektu albo do osobistego folderu skilli.
+1. **Zainstaluj skille.** Wrzuć cztery pliki `*.skill.md` (i folder `brand-discovery/references/`) tam, gdzie Claude Code szuka skilli — do katalogu `.claude/skills/` Twojego projektu albo do osobistego folderu skilli.
 2. **Utwórz katalog stanu.** Zrób folder `/brand-identity/` tam, gdzie trzymasz notatki projektu (repo, vault Obsidian — dowolny katalog, który agent może czytać i zapisywać).
 3. **Odpal.** Wywołaj `/brand-discovery`. Na świeżym starcie potwierdzi nazwę marki, uczestników i gdzie zapisywać pliki, po czym zacznie od modułu 10. Przy wznawianiu najpierw czyta `STATE.md` i podejmuje wątek tam, gdzie skończyłeś.
 

@@ -1,20 +1,12 @@
 ---
 name: competitive-platform-analysis
 description: >-
-  Identify, categorize, and score-filter a competitor set for a brand,
-  studio, or agency before any benchmarking begins. Use when scoping a
-  competitive landscape, deciding who counts as a competitor, or choosing
-  which sources and platforms to mine for competitive intelligence. First
-  step in a three-skill competitive pipeline; precedes benchmark-methodology.
+  Use when scoping a competitive landscape — identifying, categorising, and
+  score-filtering a competitor set before any benchmarking begins. Decides who
+  counts as a competitor, which tier they belong to, and which sources to mine.
+  First step in the three-skill competitive pipeline; precedes
+  benchmark-methodology.
 origin: community
-author: hretheum
-license: MIT
-tags:
-  - competitive-analysis
-  - research
-  - positioning
-  - market-landscape
-  - benchmarking
 ---
 
 # Competitive Platform Analysis
@@ -23,6 +15,14 @@ Use this skill to decide **who to benchmark** and **where to find them** before
 any scoring begins. A competitive analysis is only as good as its frame: the
 wrong set makes the client look either unbeatable or doomed. The goal is a
 defensible, decision-relevant set — not an exhaustive census.
+
+## When to Activate
+
+- About to start a competitive benchmarking project and need to define the competitor set first.
+- Unsure which companies belong in Direct / Adjacent / Aspirational tiers.
+- Need a defensible, pruned scope for a market landscape report.
+- Has a positioning brief and wants to identify who contests that position.
+- First step before running benchmark-methodology.
 
 ## Client positioning brief (establish first)
 
@@ -166,3 +166,16 @@ Rules of thumb (apply per the client's scoping consequence in the positioning br
 A scoped, tiered competitor set (typically 10–18 candidates → 8–12 profiled),
 each tagged with its axis positions, tier, and source links, ready to hand to
 `benchmark-methodology`.
+
+## Anti-Patterns
+
+- **Scoping without a positioning brief.** A competitor list built without the client's lens is noise. The brief determines what counts as a real rival.
+- **Listing every similar company.** The goal is a defensible 10–18 candidate set, not a census. Breadth without pruning makes benchmarking unmanageable.
+- **Blurring the Direct/Adjacent/Aspirational tiers.** These tiers serve different strategic purposes. Mixing them produces a flat list that can't drive decisions.
+- **Relying on a single source per competitor.** Self-reported site copy is marketing, not fact. Verify attributes across at least two sources.
+- **Jumping straight to scoring.** This skill scopes and tiers the set. Benchmark-methodology handles scoring. Don't conflate the two steps.
+
+## Related Skills
+
+- `brand-discovery` — use first to establish the positioning brief and strategic tension that scopes the competitor set.
+- `benchmark-methodology` — the next step; takes the tiered set and scores each competitor across nine dimensions.

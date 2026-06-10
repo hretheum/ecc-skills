@@ -1,21 +1,12 @@
 ---
 name: competitive-report-structure
 description: >-
-  Assemble scored competitor cards into a decision-grade competitive
-  benchmarking report. Produces a landscape map, competitor profiles,
-  benchmarking matrix, white-space analysis, and strategic recommendations
-  anchored to the client's brand balance. Use after competitive-platform-
-  analysis and benchmark-methodology have produced a tiered, scored competitor
-  set. Third and final step in the three-skill competitive pipeline.
+  Use after benchmark-methodology has produced scored competitor profile cards.
+  Assembles findings into a decision-grade report: landscape map, competitor
+  profiles, benchmarking matrix, white-space analysis, strategic recommendations,
+  and team alignment trigger questions. Final step in the three-skill competitive
+  pipeline.
 origin: community
-author: hretheum
-license: MIT
-tags:
-  - competitive-analysis
-  - benchmarking
-  - reporting
-  - strategy
-  - positioning
 ---
 
 # Competitive Report Structure
@@ -24,6 +15,13 @@ Use this skill to assemble scored competitor cards into a decision-grade report.
 The report must answer three questions for the client: **who do we compete with,
 how do we compete, and where is our defensible white-space?** Every section
 earns its place by moving toward those answers — cut anything that doesn't.
+
+## When to Activate
+
+- All competitor profile cards from benchmark-methodology are complete and ready to assemble.
+- Need to present competitive findings to a founder, leadership team, or board.
+- The report must drive decisions (who to compete with, how, where the moat is) — not just document the landscape.
+- Preparing a client deliverable that must be auditable and defensible.
 
 ## Client positioning brief (establish first)
 
@@ -146,3 +144,17 @@ End with questions that force decisions, not admiration of the analysis:
   deliberately concede?
 - What's the one move that most widens distinctiveness *without* costing
   hireability / credibility?
+
+## Anti-Patterns
+
+- **Leading with methodology.** The executive summary opens with the most important finding, not an explanation of how the benchmark was run. Methodology belongs in the appendix.
+- **Presenting scores without the tension plot.** The 2×2 tension map is the headline artefact. A table of numbers without the map buries the strategic insight.
+- **Omitting the decision framework.** The report must resolve the three questions (who to compete with, how, where the moat is). Leaving these unanswered turns the report into a literature review.
+- **Starting before all profile cards are complete.** Benchmark-methodology must finish before assembly begins. Partial data produces gaps that undermine the heatmap and white-space analysis.
+- **Adding a blended total column to the matrix.** Explicitly excluded — it creates a false composite that obscures the asymmetry the client needs to act on.
+
+## Related Skills
+
+- `benchmark-methodology` — the prerequisite; produces the scored competitor profile cards this skill assembles.
+- `competitive-platform-analysis` — provides the tier structure (Direct / Adjacent / Aspirational) used in Section 3.
+- `brand-discovery` — use to establish the client's positioning brief if it hasn't been defined.
