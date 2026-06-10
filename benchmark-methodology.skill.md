@@ -106,16 +106,18 @@ important finding of the benchmark.
 
 For each competitor, work the dimensions in this order (cheapest signal first):
 
-1. **Studio site** — positioning, voice, offer packaging, pricing posture, named
-   clients, manifesto/POV. Screenshot the homepage + one case study.
+1. **Competitor's own site** — positioning, voice, offer packaging, pricing
+   posture, named clients, manifesto/POV. Screenshot the homepage + one case
+   study.
 2. **Case studies / work** — evidence depth, quantified outcomes, client names.
-   Distinguish *asserted* ("we redesigned X") from *proven* (metrics, named,
+   Distinguish *asserted* ("we delivered X") from *proven* (metrics, named,
    verifiable).
-3. **Directory / reviews (Clutch.co etc.)** — corroborate clients, project size,
-   engagement model → credibility & enterprise-readiness.
+3. **Review directories** — corroborate clients, project size, engagement model
+   → credibility & enterprise-readiness (e.g. Clutch.co or the niche equivalent).
 4. **LinkedIn** — team size/model, founder narrative, content cadence →
    thought leadership, model.
-5. **Portfolio platforms (Dribbble/Behance/Awwwards)** — visual craft register.
+5. **Portfolio / craft platforms** — craft register (use the showcase native to
+   the niche: design boards, showreels, published samples, etc.).
 6. **Content channels** — newsletter/talks/writing → thought-leadership depth.
 
 **What to record per dimension:** the score, one-line justification, and the
@@ -130,8 +132,9 @@ source link/screenshot that earned it. No score without evidence.
 - **Aesthetic affinity bias.** Reviewers may over-score studios whose aesthetic
   they share and under-score rivals' commercial strength. Score craft and
   credibility independently; a "boring" site may be winning bigger clients.
-- **Recency / flashiness bias.** Awwwards-style sites dazzle but may lack
-  commercial depth — verify with Clutch/clients before scoring credibility.
+- **Recency / flashiness bias.** Award-winning, showpiece work dazzles but may
+  lack commercial depth — verify with directories/clients before scoring
+  credibility.
 - **Survivorship.** The visible, well-marketed studios aren't the whole market;
   note strong-but-quiet operators found via directories/reviews.
 - **Calibrate across the set, not in isolation.** Before finalizing, re-read
@@ -144,8 +147,8 @@ Produce one card per profiled competitor — the atomic unit the report assemble
 from:
 
 ```
-## <Studio name>
-- **Category / Tier:** <1–8> / <Direct | Adjacent | Aspirational>
+## <Competitor name>
+- **Profile / Tier:** <positioning stance · specialization · size band> / <Direct | Adjacent | Aspirational>
 - **One-liner:** <how they position themselves, in their words>
 - **Model / size / geography:** <solo|micro|boutique> · <region> · <pricing/engagement model>
 - **Notable clients / evidence:** <named, with proven/asserted tag>

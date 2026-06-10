@@ -164,5 +164,5 @@ Rules of thumb (apply per the client's scoping consequence in the positioning br
 ## Output of this stage
 
 A scoped, tiered competitor set (typically 10–18 candidates → 8–12 profiled),
-each tagged with category, tier, and source links, ready to hand to
+each tagged with its axis positions, tier, and source links, ready to hand to
 `benchmark-methodology`.
